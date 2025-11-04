@@ -1,7 +1,7 @@
 import { logger } from 'src/common/logger'
 import { PoolClient, QueryResultRow } from 'pg'
 import { postgresDB } from './postgre/postgresDB'
-import { IDbInterface, TSqlQueryParam } from '../routers/dbInterfaces'
+import { IDbInterface, TSqlQueryParam } from './dbInterfaces'
 
 type TDbQueryResult = {
     rowCount: number,

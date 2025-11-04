@@ -2,7 +2,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 import { PGConnectionConfig } from './interfaces'
-import { IDbInterface } from '../../routers/dbInterfaces'
+import { IDbInterface } from '../dbInterfaces'
 import { Pool, PoolClient, QueryResult } from 'pg'
 
 const connection_options: PGConnectionConfig = {
